@@ -1,0 +1,43 @@
+<html>
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device=width, initial-scale=1.0">
+        <meta name="description" content="">
+        <link rel="stylesheet" href="task3.css">
+        <script src="Script.js"></script>
+        <title>Document</title>
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="temperature-converter">
+                <h1 class="title">Temperature Converter</h1>
+                <div class="result">
+                  <span class="result-heading">Result</span>
+                  <h2 class="celsius-value" id="celsius"></h2>
+                </div>
+                <div class="degree-type">
+                  <div class="degree-field">
+                    <label for="degree">Degrees</label>
+                    <input type="number" name="degree" id="degree" />
+                  </div>
+                  <div class="temp-field">
+                    <label for="temp-type">Type</label>
+                    <select name="temperatures" id="temp-type" autocomplete="on">
+                      <option id="celcius" value="celcius">Celcius</option>
+                      <option id="fahrenheit" value="fahrenheit">Fahrenheit</option>
+                      <option id="kelvin" value="kelvin">Kelvin</option>
+                    </select>
+                  </div>
+                </div>
+                <button id="convert-btn">Convert</button>
+            </div>
+          </div>
+          <!--LINK JAVASCRIPT FILE-->
+    <script src="./script.js"></script>
+
+
+        
+    </body>
+</html>
